@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Image Mutator</title>
+    <style type="text/css">
+      body {
+        background-color: #efefef;
+      }
+
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 100px;
+        width: 300px;
+      }
+
+      #toggle {
+        display: block;
+        width: 80%;
+      }
+
+      #queryKey {
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <label for="queryKey">Key: </label>
+      <input type="text" name="queryKey" id="queryKey" value="imformat" disabled>
+
+      <select id="queryValue">
+        <option value="chrome">chrome</option>
+        <option value="safari">safari</option>
+        <option value="ie">ie</option>
+        <option value="generic">generic</option>
+      </select>
+
+      <button id="toggle">
+        Toggle
+      </button>
+
+    </div>
+    <script src="storage.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
