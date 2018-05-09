@@ -1,7 +1,7 @@
 {
-    "name": "Getting Started Example",
+    "name": "Query Appender",
     "version": "1.0",
-    "description": "Build an Extension",
+    "description": "Chrome extension to append to image urls",
     "manifest_version": 2,
     "browser_action": {
      "default_popup": "popup.html"
