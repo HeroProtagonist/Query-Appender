@@ -9,9 +9,9 @@
       isEnabled = !enabled
 
       if (isEnabled) {
-        // chrome.browserAction.setIcon({path: "/static/logo128.png"})
+        chrome.browserAction.setIcon({path: "/static/logo128.png"})
       } else {
-        // chrome.browserAction.setIcon({path: "/static/off.png"})
+        chrome.browserAction.setIcon({path: "/static/logo128-red.png"})
       }
     }
   })
